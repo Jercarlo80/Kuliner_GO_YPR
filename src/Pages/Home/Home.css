@@ -1,0 +1,328 @@
+.home {
+    height: 4000px;
+}
+.home img {
+    width: 100%;
+}
+.image-container .tahukah {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    position: relative;
+    bottom: 550px;
+}
+.image-container .destinasi {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    position: relative;
+    bottom: 500px;
+}
+img {
+    width: 2000px;
+}
+
+.search-box {
+    align-items: center;
+    width: 17.98px;
+    height: 18.42px;
+}
+.search-box .searchI {
+    position: absolute;
+    /* bottom: ; */
+
+}
+
+.search-box input {
+    width: 970px;
+    height: 62px;
+    position: absolute;
+    top: 450px;
+    left: 475px;
+    border-radius: 16px;
+    /* margin-left: 500px; */
+    
+}
+
+.kategori {
+    color: black;
+    font-size: 32px;
+    font-weight: 400;
+    width: 263px;
+    height: 52px;
+    position: absolute;
+    left: 51.9px;
+}
+h5 {
+    font-size: 20px;
+    width: 707px;
+    height: 32px;
+    color: gray;
+    position: absolute;
+    left: 51.9px;
+    top: 980px;
+}
+
+.menu-image {
+    position: absolute;
+    left: 50px;
+    top: 1050px;
+}
+
+.menu-image .nasi {
+    width: 290px;
+    height: 340px;
+    filter: brightness(40%);
+    border-radius: 10px;
+}
+.menu-image .minuman {
+    width: 290px;
+    height: 340px;
+    position: absolute;
+    left: 380px;
+    filter: brightness(40%);
+    border-radius: 10px;
+}
+.menu-image .seafood {
+    width: 290px;
+    height: 340px;
+    position: absolute;
+    left: 760px;
+    filter: brightness(40%);
+    border-radius: 10px;
+}
+
+.menu-image .other {
+    width: 290px;
+    height: 340px;
+    position: absolute;
+    left: 1130px;
+    /* filter: brightness(40%); */
+    border-radius: 10px;
+}
+
+.nasi-text {
+    color: white;
+    position: absolute;
+    bottom: 86px;
+    width: 184.55px;
+    height: 47.34px;
+    font-size: 32px;
+    left: 24px;
+}
+
+.nasi-text02 {
+    color: white;
+    position: absolute;
+    width: 252.9px;
+    height: 67.06px;
+    font-size: 20px;
+    left: 24px;
+    top: 265px;
+}
+
+.minuman-text {
+    color: white;
+    position: absolute;
+    bottom: 86px;
+    width: 184.55px;
+    height: 47.34px;
+    font-size: 32px;
+    left: 400px;
+}
+
+.minuman-text02 {
+    color: white;
+    position: absolute;
+    width: 252.9px;
+    height: 67.06px;
+    font-size: 20px;
+    left: 400px;
+    top: 265px;
+}
+
+.seafood-text {
+    color: white;
+    position: absolute;
+    bottom: 86px;
+    width: 184.55px;
+    height: 47.34px;
+    font-size: 32px;
+    left: 780px;
+}
+.seafood-text02 {
+    color: white;
+    position: absolute;
+    width: 252.9px;
+    height: 67.06px;
+    font-size: 20px;
+    left: 780px;
+    top: 265px;
+}
+
+.restoran-terdekat-text {
+    color: black;
+    font-size: 28px;
+    font-weight: 400;
+    width: 263px;
+    height: 52px;
+    position: absolute;
+    left: 51.9px;
+    top: 1470px;
+}
+
+.restoran-terdekat-text02 {
+    font-size: 20px;
+    width: 707px;
+    height: 32px;
+    color: gray;
+    position: absolute;
+    left: 51.9px;
+    top: 1520px;
+}
+
+.terdekatku-container {
+    width: 290px;
+    height: 340px;
+    filter: brightness(100%);
+    border-radius: 10px;
+}
+.terdekatku-container .terdekatku01 {
+    position: absolute;
+    left: 50px;
+    top: 720px;
+}
+
+.terdekatku-container .terdekatku02 {
+    position: absolute;
+    left: 50px;
+    top: 1050px;
+}
+
+.terdekatku-container .terdekatku03 {
+    position: absolute;
+    left: 50px;
+    top: 1380px;
+}
+.warunk-mulya {
+    width: 495px;
+    height: 25px;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 400px;
+    top: 720px;
+}
+.warunk-mulya .dot-icon-warunk-mulya {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 295px;
+    top: 25px;
+}
+.warunk-mulya .buah-batu {
+    width: 495px;
+    height: 25px;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 340px;
+    top: 0.1px;
+}
+/* .star-01 {
+    width: 20px;
+    height: 10%;
+} */
+
+.meat-guy {
+    width: 495px;
+    height: 25px;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 400px;
+    top: 1050px;
+}
+.meat-guy .dot-icon-meatguy {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 420px;
+    top: 25px;
+}
+
+.meat-guy .verified-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 680px;
+    top: 15px;
+}
+
+.meat-guy .pesona-bali {
+    width: 495px;
+    height: 25px;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 460px;
+    top: 0px;
+}
+
+.jardin-cafe {
+    width: 495px;
+    height: 25px;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 400px;
+    top: 1380px;
+}
+.jardin-cafe .dot-icon-meatguy {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 260px;
+    top: 25px;
+}
+
+.jardin-cafe .verified-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 560px;
+    top: 18px;
+}
+
+.jardin-cafe .martadinata {
+    width: 495px;
+    height: 25px;
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 320px;
+    top: 0px;
+}
+
+
+.info {
+    width: 1292px;
+    height: 450px;
+}
+
+.info .info-image {
+    position: absolute;
+    top: 2700px;
+}
+
+.info01 {
+    width: 1292px;
+    height: 450px;
+
+}
+
+.info01 .info-image01 {
+    position: absolute;
+    left: 20px;
+    top: 3400px;
+}

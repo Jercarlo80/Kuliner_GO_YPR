@@ -1,0 +1,116 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    z-index: 10;
+    
+}
+.navbar img { 
+    width: 230px;
+    height: 52px;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
+
+li .home {
+    color: white;
+    font-size: 16px;
+}
+li .favorite {
+    color: white;
+    font-size: 16px;
+}
+li .terdekatku {
+    color: white;
+    font-size: 16px;
+}
+li .popular {
+    color: white;
+    font-size: 16px;
+}
+li .masuk {
+    background: #0190FF;
+    color: white;
+    width: 88px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    bottom: 4px;
+    cursor: pointer;
+}
+
+li .daftar {
+    background: #0190FF;
+    color: white;
+    width: 88px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    bottom: 4px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;  /* Meratakan Navbar*/
+    position: relative;
+    right: 250px;
+}
+.nav-menu li {
+    padding: 24px;
+}
+.navbar a {
+    font-weight: 600;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width:1240px) {
+    .icon {
+        display: block;
+    }    
+    .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        height: 100vh; /* memberi jarak */
+        transition: 0.4s;
+        z-index: -1;
+        background: rgba(0, 0, 0, 9);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu li {
+        padding: 1rem 0;
+    }
+    .nav-menu a {
+        font-size: 2rem;
+    }
+
+}
+
+
+
+
+
+
